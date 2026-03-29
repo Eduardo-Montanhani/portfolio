@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Montanhani | Full Stack Developer</title>
+    
+    <meta name="description" content="Portfólio de Eduardo Montanhani, Desenvolvedor Full Stack especializado em Laravel, Next.js e soluções digitais de alto impacto.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="particles-js" aria-hidden="true"></div>
+
+    <nav class="nav-minimal">
+        <div class="logo">EM<span>.exe</span></div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="badge" role="status">Disponível para novos projetos</div>
+            <h1>Construindo o futuro com <span class="gradient-text">código e design.</span></h1>
+            <p class="hero-subtitle">
+                Olá, me chamo <strong>Eduardo Montanhani</strong>. <br>
+                Sou Desenvolvedor Full Stack focado em criar ecossistemas escaláveis e experiências memoráveis.
+            </p>
+        </section>
+
+        <section class="bento-grid" id="projects">
+            
+            <article class="bento-item tech-box">
+                <header>
+                    <span class="icon">⚡</span>
+                    <h3>Tech Stack</h3>
+                </header>
+                <div class="tech-tags">
+                    <span>PHP / Laravel</span>
+                    <span>Next.js / TS</span>
+                    <span>Java / Spring</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Tailwind CSS</span>
+                </div>
+            </article>
+
+            <article class="bento-item social-box">
+                <h3>Conecte-se</h3>
+                <div class="social-links">
+                    <a href="https://github.com/Eduardo-Montanhani" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="assets/git.svg" alt="" aria-hidden="true"> GitHub
+                    </a>
+                    <a href="https://www.instagram.com/eduardo.mtni/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="assets/insta.svg" alt="" aria-hidden="true"> Instagram
+                    </a>
+                </div>
+            </article>
+
+            <article class="bento-item cv-box">
+                <div class="cv-content">
+                    <h3>Currículo</h3>
+                    <p>Documentação completa de habilidades e histórico profissional.</p>
+                    <a href="assets/curriculoEduardo.pdf" download class="btn-main">
+                        Baixar PDF
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="footer-minimal">
+        <p>© <span id="year"></span> Eduardo Montanhani. <br> Built with Code & Focus.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Atualiza o ano do footer automaticamente
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
